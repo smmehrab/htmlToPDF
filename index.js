@@ -17,7 +17,7 @@ const prompt = require('prompt');
         //     }
         // });
 
-        filePath = '.input/input.html'
+        filePath = './input/input.html'
         toPDF(filePath);
     }catch(e){
         console.log(e);
